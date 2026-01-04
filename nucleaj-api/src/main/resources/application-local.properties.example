@@ -1,0 +1,39 @@
+# Example local configuration file
+# Copy this file to application-local.properties and fill in your actual values
+# NEVER commit application-local.properties to version control!
+
+# Database Configuration
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+
+# JWT Configuration
+# Generate a secure random key (minimum 32 characters)
+# You can use: openssl rand -base64 32
+JWT_SECRET_KEY=your-very-secure-random-jwt-secret-key-here-minimum-32-chars
+
+# Mail Configuration
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your-email@gmail.com
+MAIL_PASSWORD=your-app-password
+MAIL_SENDER_NAME=Your App Name
+
+# Redis Configuration (if using Redis cache)
+# REDIS_HOST=localhost
+# REDIS_PORT=6379
+# REDIS_PASSWORD=your-redis-password
+
+# FTP Configuration (if using CDN)
+# FTP_HOST=ftp.yourcdn.com
+# FTP_PORT=21
+# FTP_USERNAME=your-ftp-username
+# FTP_PASSWORD=your-ftp-password
+
+# API Key
+API_KEY=your-secure-api-key-change-this
+
+# CORS Configuration
+CORS_ORIGINS=http://localhost:4200,http://localhost:3000
+
+# File Upload Directory
+UPLOAD_DIR=uploads
